@@ -11,7 +11,17 @@ public class Armstrong
 		if(count!=0)
 		{
 		int copy = n;
+
 		}
+
+		int count = 0;
+		while (n!=0)
+		{
+			count++;
+			n = n/10;
+		}
+		n = copy;
+
 		int sum=0;
 		while (n!=0)
 		{
